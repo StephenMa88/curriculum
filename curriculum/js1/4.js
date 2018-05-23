@@ -7,7 +7,13 @@
  */
 
 const solution = (a, b) => {
-  return 0;
+  var word = ""
+  var i = 0;
+  while (i<a){
+    word = word + b;
+    i++;
+  };
+  return word;
 };
 
 module.exports = {
