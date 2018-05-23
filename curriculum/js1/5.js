@@ -5,6 +5,9 @@
  * @param {function} b
  */
 
+
+
+
 const solution = (a, b) => {
   return 0;
 };
