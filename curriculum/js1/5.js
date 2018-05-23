@@ -5,8 +5,14 @@
  * @param {function} b
  */
 
+
 const solution = (a, b) => {
-  return 0;
+  var i = 0;
+  while (i<a){
+    b();
+    i++
+  };
+  return i;
 };
 
 module.exports = {
